@@ -66,8 +66,55 @@ print(x)
 print(y)
 print(z) 
 ~~~
+~~~
 a = b = c = "오렌지"
 print(a)
 print(b)
 print(c) 
+~~~
+~~~
+fruits = ["포도", "딸기", "수박"]
+x,y,z = fruits
+print(x)
+print(y)
+print(z) 
+~~~
+~~~
+x = "Life"
+y = "is"
+z = "Beautiful"
+print(x,y,z)
+print(x+y+z)
+~~~
+~~~
+a = 1
+b = 2
+c = 3
+print(a,b,c)
+print(a+b+c)
+~~~
+
+#### 데이터 유형
++ 텍스트
++ 숫자
++ 불(bool)
+
+~~~
+a = 15
+b = 4
+sum = a+b
+dis = a-b
+xon = a*b
+xis = a**b
+nan = a/b
+nin = a//b
+nun = a%b
+
+print('더하기',a, '+', b, '=', sum)
+print('빼기',a, '-', b, '=', dis)
+print('곱하기',a, 'x', b, '=', xon)
+print('제곱',a, 'xx', b, '=', xis)
+print('나누기',a, '/', b, '=', nan)
+print('몫',a, '//', b, '=', nin)
+print('나머지',a, '%', b, '=', nun)
 ~~~
