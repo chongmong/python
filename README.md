@@ -14,3 +14,60 @@ c = a + b
 d = b -a
 print(c,d)
 ~~~
+~~~
+a = 10
+b = 3
+# 나눗셈
+c = a/b #나눗셈
+d = a//b #몫  
+e = a%b #나머지 
+# 곱셈
+f = a*b
+g = a**b #제곱
+print(c,d,e,f,g)
+~~~
+
+#### 변수
+* 문자 또는 밑줄로 시작(beta, _kim)
+* 대소문자를 구분한다.(sum, Sum, SUM)
+* 영문자, 숫자, 밑줄(a-z. 0-9, _)
+* 파이썬 키워드는 사용 불가 
+
+#### 문자열
+1. 큰 따옴표 : "Hello World! 
+it's"
+2. 작은 따옴표 : '대한민국'  
+3. 큰 따옴표 3 : """Hello World!"""
+4. 작은 따옴표 3 : ''' Lifeis too short, You need python'''
+
+~~~
+myName = "Dongmin Son" #카멜
+my_name = "손동민" # 스네이크
+MyName = "kiki" # 파스칼
+_myname = "korea"
+MYNAME = "God is love"
+my2name = "12345"
+# 2myname = '9876'
+# my-name = "michle"
+# my name = "kiki"
+myStr = '123' #str
+myNum = 123 # int
+
+print(myStr, + myNum)
+print(type(myStr))
+print(type(myNum))
+~~~
+
+#### 여러개 변수 할당
+
+~~~
+x, y, z = "포도", "딸기", "수박"
+print(x)
+print(y)
+print(z) 
+~~~
+a = b = c = "오렌지"
+print(a)
+print(b)
+print(c) 
+~~~
